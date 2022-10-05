@@ -1,5 +1,5 @@
 public class Parent{
-    protected String vehicle = "mazda";
+    protected String brand = "Daimler";
     public void Honk(){
         System.out.println("the vehicle sound");
     }
