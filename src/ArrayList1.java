@@ -11,6 +11,7 @@ public class ArrayList1 {
 
       String acc = cars.get(2);
         System.out.println(acc);
+        System.out.println(cars);
 //        System.out.println(change);
     }
 }
