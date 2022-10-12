@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class HashedMap {
     public static void main(String[] args) {
-        HashMap<String, String > countries = new HashMap<String, String>();
+        HashMap<String, String> countries = new HashMap<String, String>();
         countries.put("Kenya", "Nairobi");
         countries.put("Tanzania", "dar-eslam");
         countries.put("uganda", "kampala");
