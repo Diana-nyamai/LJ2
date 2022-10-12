@@ -5,4 +5,10 @@ public class Tutu {
     public void kita(){
         System.out.println("my broda!");
     }
+    public void kito(){
+        System.out.println("my broda!");
+    }
+    public void kitu(){
+        System.out.println("my broda!");
+    }
 }
