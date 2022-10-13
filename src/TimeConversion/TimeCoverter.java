@@ -10,14 +10,8 @@ public class TimeCoverter {
         String time = "12:01:00 AM";
         DateFormat time2 = new SimpleDateFormat("hh:mm:ss aa");
         SimpleDateFormat timeformat = new SimpleDateFormat("HH:mm:ss");
-//        Date T = time2.parse(time);
-        LocalTime parse = LocalTime.parse(time);
-        String output = timeformat.format(parse);
+        Date T = time2.parse(time);
+        String output = timeformat.format(T);
         System.out.println(output);
     }
 }
-
-//    public static String timeConversion(String s) {
-//        LocalTime parse = LocalTime.parse(s, DateTimeFormatter.ofPattern("hh:mm:ssa"));
-//        return  parse.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
-//    }
