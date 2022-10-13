@@ -1,3 +1,5 @@
+package HackerRank;
+
 public class Countposneg {
 //    this solution works but not for all test cases
     public static void main(String[] args) {

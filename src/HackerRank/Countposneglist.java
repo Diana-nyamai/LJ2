@@ -1,3 +1,5 @@
+package HackerRank;
+
 import java.util.List;
 
 public class Countposneglist {
