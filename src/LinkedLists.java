@@ -6,7 +6,10 @@ public class LinkedLists {
         cars.add("mercedes");
         cars.addFirst("prado");
         for (String i : cars){
-            System.out.println(i);
+            if(i == "mercedes"){
+                System.out.println(i);
+            }
+
         }
     }
 }
