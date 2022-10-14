@@ -1,6 +1,7 @@
 package HackerRank;
 
 public class countposnegzero {
+//    all the test cases passed!!
     public static void main(String[] args) {
         int [] vals = {-4, 3, -9, 0, 4, 1};
         float positivevalue = 0f;
