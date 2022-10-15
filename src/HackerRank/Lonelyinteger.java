@@ -5,14 +5,14 @@ import java.util.*;
 public class Lonelyinteger {
     public static HashSet<Integer> findlonelyinteger(List<Integer> arr){
         Collections.sort(arr);
-        int size  = arr.size();
-        HashSet<Integer> withdupes = new HashSet<>();
-        for(int i=0; i<size; i++){
-          if(!withdupes.contains(arr.get(i))){
-              withdupes.add(arr.get(i));
-          }
+//        int size  = arr.size();
+        HashSet<Integer> unique = new HashSet<>(arr);
+        for(int i: arr){
+            if(!unique.contains(i)){
+                unique.add(i);
+            }
         }
-        return withdupes;
+        return unique;
     }
     public static void main(String[] args) {
 //        finding a lonely integer
