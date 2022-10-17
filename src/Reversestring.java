@@ -1,4 +1,5 @@
 public class Reversestring {
+//    solution on internet
     public static void Rev(String name){
         String rs = "";
         for(int i=0; i<name.length(); i++){
