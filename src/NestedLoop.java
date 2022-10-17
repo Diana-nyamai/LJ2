@@ -1,7 +1,15 @@
 public class NestedLoop {
     public static void main(String[] args) {
-
-        System.out.println("Inner loop" );
-        System.out.println(" Outer loop");
+        int [][]arr = {
+                {2,3,5},
+                {7,4,2},
+                {9,5,3}
+        };
+       for(int [] i: arr){
+           for (int j: i){
+               System.out.println(j + "\t");
+           }
+           System.out.println("");
+       }
     }
 }
