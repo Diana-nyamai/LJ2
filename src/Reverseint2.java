@@ -1,6 +1,6 @@
 public class Reverseint2 {
-    public static boolean rev(){
-        int x = 121;
+    public static boolean rev(int y){
+        int x = y;
         int reversed = 0;
 
         while(x > 0){
@@ -8,15 +8,10 @@ public class Reverseint2 {
             reversed = reversed*10 + rem;
             x = x/10;
         }
-        if(x != reversed){
-            return false;
-        }
-        else {
-            return false;
-        }
+        return reversed == y;
     }
     public static void main(String[] args) {
-        System.out.println(rev());
+        System.out.println(rev(-121));
     }
 
 }
