@@ -17,7 +17,7 @@ public class ReverseString {
         System.out.println(s);
     }
     public static void main(String[] args) {
-        char [] arr = {'H','e','l','l','o'};
+        char [] arr = {'H','e','l','l','o','7'};
         revstring(arr);
     }
 }
