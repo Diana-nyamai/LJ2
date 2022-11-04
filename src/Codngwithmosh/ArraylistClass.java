@@ -11,7 +11,7 @@ public class ArraylistClass {
         arr.add(50);
         arr.add(60);
         arr.contains(70);
-        arr.remove(2);
+        arr.remove(1);
         System.out.println(arr);
     }
 }
