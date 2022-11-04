@@ -38,7 +38,7 @@ public class Arrayexercise {
        }
        public int IndexOf(int item){
 //           time complexity of this method is linear - O(n)
-           for(int i=0; i<count; i++){
+           for(int i=1; i<count; i++){
                if(items[i] == item){
                   return i;
                }
