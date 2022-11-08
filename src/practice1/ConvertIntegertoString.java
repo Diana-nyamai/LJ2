@@ -19,9 +19,11 @@ public class ConvertIntegertoString {
 
 //        using string builder
         String sbuilder = new StringBuilder().append(x).toString();
-
         System.out.println("String Builder "+sbuilder);
 
+//        using concatination with empty string
+        String a = "" + x;
+        System.out.println("using concatination" + a);
         System.out.println("toString " + y);
         System.out.println("valueof " + z);
     }
