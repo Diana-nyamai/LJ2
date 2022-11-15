@@ -37,8 +37,8 @@ public class FindMedianfromDataStream {
     public static void main(String[] args) {
       FindMedianfromDataStream findMedianfromDataStream = new FindMedianfromDataStream();
       findMedianfromDataStream.addNum(2);
-      findMedianfromDataStream.addNum(3);
-      findMedianfromDataStream.addNum(4);
+      findMedianfromDataStream.addNum(7);
+      findMedianfromDataStream.addNum(5);
       System.out.println(findMedianfromDataStream.findMedian());
 
 
