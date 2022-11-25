@@ -4,10 +4,14 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-       int x = 11/3;
-       int y = (int) Math.sqrt(11);
-        System.out.println("sqrt: " + y);
-        System.out.println(x);
+     int [] nums = {2,3,4};
+
+     int numconvert = 0;
+     for(int num: nums){
+       numconvert = 10*numconvert + num;
+     }
+        System.out.println(numconvert);
+
 
     }
     }
