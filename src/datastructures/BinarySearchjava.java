@@ -1,4 +1,4 @@
-package practice1;
+package datastructures;
 
 import java.util.Arrays;
 
